@@ -1,0 +1,51 @@
+/* CSS Stylesheet for the Psst microblog */
+/* Author: Kevin Paterson                 */
+
+html {
+    background-color: #000000;
+    color: #efefef;
+    font-family: sans-serif;
+}
+
+header {
+	align: center;
+}
+
+h1 {
+	color: #eeeeee;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #666666;
+	font-size: 120%;
+	
+	
+}
+
+article {
+	/*float: right;*/
+	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 5%;
+	padding-left: 5%;
+	
+	width: auto;
+	max-width: 600px;
+	height: auto;
+	color: #000000;
+	background-color: #f9f9f9;
+	background-origin: content-box;
+    -webkit-border-image: url(/static/border.png) 30 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(/static/border.png) 30 30 round; /* Opera 11-12.1 */
+    border-image: url(/static/border.png) 40 40 round;
+}
+#avatar {
+
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	max-width: 300px;
+	height: auto;
+}
